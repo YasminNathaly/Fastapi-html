@@ -43,3 +43,4 @@ def salvar_aluno(nome: str = Form(...), nota: float = Form(...)):
     alunos.append({ "nome": nome, "nota": nota} )
     return RedirectResponse(url="/", status_code=303)
 #Atualizando
+###
